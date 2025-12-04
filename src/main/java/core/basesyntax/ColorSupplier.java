@@ -12,7 +12,7 @@ public class ColorSupplier {
     private final Random random = new Random();
 
     public String getRandomColor() {
-        return randomColor.get(random.nextInt(size)).toString();
+        return randomColor.get(random.nextInt(size)).name();
     }
 }
 
